@@ -1,38 +1,69 @@
-.App {
+.App .card-container {
+  padding: 50px;
+  display: block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-container .input-forms {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px auto;
+  justify-content: space-evenly;
+  max-width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container .custom-button-group {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-container .custom-button-group button {
+  margin-right: 5px;
+}
+
+.card-container form {
+  width: 100%;
+}
+
+.card-container .flight-config-row {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 10px;
+}
+
+.card-container .flight-config-row .select-section {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.card-container form .place-textfield {
+  width: 35%;
+  margin: 0 10px;
+}
+
+.card-container .checkbox {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.card-tabs {
+  min-width: 100%;
+  margin: 30px auto;
+}
+
+.card-tabs .MuiTab-textColorPrimary.Mui-selected {
+  color: #007e8f;
+}
+
+.PrivateTabIndicator-root-1.PrivateTabIndicator-colorPrimary-2.MuiTabs-indicator {
+  background-color: #007e8f !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #007e8f !important;
+}
+.MuiInput-underline,
+.MuiInput-underline:after,
+.MuiInput-underline:hover {
+  border-bottom-color: transparent !important;
 }

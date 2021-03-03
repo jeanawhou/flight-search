@@ -1,0 +1,27 @@
+.custom-button button.active {
+  padding: 10px 50px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: #007e8f;
+  border: none;
+}
+
+.custom-button button.inactive {
+  padding: 10px 50px;
+  background-color: transparent;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #007e8f;
+  border: none;
+}
+
+.custom-button button:focus,
+.custom-button button:hover {
+  padding: 10px 50px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: #0b5e69;
+  border: none;
+}
