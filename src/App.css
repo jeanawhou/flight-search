@@ -1,6 +1,6 @@
 .App .card-container {
   padding: 50px;
-  display: block;
+  display: flex;
   text-align: center;
 }
 
