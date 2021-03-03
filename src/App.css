@@ -55,7 +55,8 @@
   color: #007e8f !important;
 }
 
-.PrivateTabIndicator-colorPrimary-2 {
+.PrivateTabIndicator-colorPrimary-2,
+.MuiTabs-indicator {
   background-color: #007e8f !important;
 }
 
