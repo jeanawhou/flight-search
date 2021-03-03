@@ -20,8 +20,7 @@ import {
   Checkbox,
   FormControlLabel,
   Select,
-  MenuItem,
-  InputLabel
+  MenuItem
 } from '@material-ui/core';
 
 const App = () => {
