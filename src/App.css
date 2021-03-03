@@ -68,3 +68,7 @@
 .MuiInput-underline:hover {
   border-bottom-color: transparent !important;
 }
+
+.MuiSelect-select.MuiSelect-selectMenu.MuiInputBase-input.MuiInput-input {
+  font-size: 10px;
+}
