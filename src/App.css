@@ -52,10 +52,10 @@
 }
 
 .card-tabs .MuiTab-textColorPrimary.Mui-selected {
-  color: #007e8f;
+  color: #007e8f !important;
 }
 
-.PrivateTabIndicator-root-1.PrivateTabIndicator-colorPrimary-2.MuiTabs-indicator {
+.PrivateTabIndicator-colorPrimary-2 {
   background-color: #007e8f !important;
 }
 
